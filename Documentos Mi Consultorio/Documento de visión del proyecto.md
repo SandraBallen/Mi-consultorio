@@ -2,7 +2,7 @@
 
 **Proyecto:** Mi consultorio
 **Versión:** 1.0
-**Fecha:** julio de 2026
+**Fecha:** 2026
 ---
 
 # 1. Introducción
