@@ -1,0 +1,89 @@
+body {
+    background-color: #E8F4FB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor {
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 35px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+}
+.botonInicioSesion{
+    text-align: right;
+}
+h2 {
+    color: #1D6FA4;
+    text-align: center; 
+    margin-top: 10px; 
+    margin-bottom: 0; 
+}
+h6 {
+    color: #1D6FA4;
+    text-align: center;
+    margin: 0px;
+}
+h5 {
+    color: #1D6FA4;
+    text-align: center;
+    margin: 10px;
+}
+.header-line {
+    border: none;
+    border-top: 2px solid #1D6FA4;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+form label {
+    margin-top: 25px;
+    font-weight: bold;
+    color: #1D6FA4;
+}
+
+.text-highlight {
+    color: red;
+}
+input[type="text"],
+input[type="email"],
+input[type="nombre"],
+input[type="password"],
+input[type="cedula"]
+input[type="text"] {
+    background-color: #E8F4FB;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #1D6FA4;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #1D6FA4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 49%;
+    margin-top: 12px;
+}
+button:hover {
+    background-color: #0D4F7A;
+}
+
+.footer {
+    color: hsl(220, 10%, 47.1%);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+

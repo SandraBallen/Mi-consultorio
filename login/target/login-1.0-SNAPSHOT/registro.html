@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Mi consultorio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2> 👤 Registro de usuario</h2><hr class="header-line">
+        <form id="registroFormulario" action="registro" method="post">
+            
+            <label for="nombre">Nombre<span class="text-highlight">*</span></label><br>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="cedula">Cédula<span class="text-highlight">*</span></label><br>
+            <input type="text" id="cedula" required><br>
+            
+            <label for="telefono">Teléfono<span class="text-highlight">*</span></label><br>
+            <input type="text" id="telefono" required><br>
+
+            <label for="email">Correo electrónico<span class="text-highlight">*</span></label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Contraseña<span class="text-highlight">*</span></label><br>
+            <input type="password" id="password" name="password" required><br>
+            
+            <label for="rol">Rol<span class="text-highlight">*</span></label><br>
+            <select id="rol" name="rol" required>
+                <option value="ADMIN">Administrador</option>
+                <option value="RECEPCIONISTA">Recepcionista</option>
+                <option value="MEDICO">Médico</option>
+                <option value="PACIENTE">Paciente</option>
+            </select><br>
+            
+            <button type="button" onclick="window.location.href='index.html' ">Cancelar</button>
+            <button type="submit">Registrar</button>
+            <p>Los campos marcados con <span class="text-highlight">*</span> son obligatorios.</p>
+        </form>
+
+        <p>¿Ya tienes cuenta? <a href="index.html">Inicia sesión</a></p>
+    </div>
+     <script src="Scripts/script.js"></script>
+    <div class="footer">
+        <p> Mi consultorio - 2026  </p>
+    </div>
+</body>
+</html>

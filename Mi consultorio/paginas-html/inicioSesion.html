@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Mi Consultorio</title>
+    <link rel="stylesheet" href="/Mi consultorio/css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2> 👨‍⚕️ Mi consultorio</h2><hr class="header-line">
+        <form id="formularioAutenticacion" action="login" method="post">
+            <label for="correoAutenticacion">Correo electrónico</label><br>
+            <input type="email" id="correoAutenticacion" required><br>
+
+            <label for="contraseñaAutenticacion">Contraseña</label><br>
+            <input type="password" id="contraseñaAutenticacion" required><br>
+
+            <button type="boton" onclick="window.location.href= href='/index.html' ">Cancelar</button>
+            <button type="boton" onclick="window.location.href= href='/paginas-html/citas.html' ">Inicio sesion</button>
+            <p><h6>¿Olvidaste tu contraseña?</h6></p>  <!--pendiente por crear enlace para recuperación de cuenta-->
+        </form>
+
+        <p><h5>¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></h5></p>
+    </div>
+
+    <div class="footer">
+        <p> Mi consultorio - 2026  </p>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
